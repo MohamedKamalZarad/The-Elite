@@ -1,0 +1,64 @@
+/*Global*/
+*{
+    box-sizing:border-box;
+}
+/*End of Global*/
+/*Header*/
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+    background-color: white;
+}
+div a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.sign_up{ border-radius: 9999px;
+background-color: #212529;
+font-size: 15px;
+padding: 10px 15px;
+color: aliceblue;}
+.sign_up:hover{
+    background-color: #4d5154;
+    color: #f5f5f5;
+}
+.Home_1:hover{
+    color: black;
+}
+.log_in:hover{
+    color: black;    
+}
+/*End of Header*/
+/*All products */
+.all_section{
+    position: relative;
+    top: 80px;
+    background-color: #f5f5f5;
+    margin-bottom: 100px;
+}
+.organize_btn{
+    background-color: white;
+    border: none;
+}
+/*End of All products */
+/*Seconed Section*/
+.seconed_section{
+    position: relative;
+    bottom: 20px;
+}
+.best_seller{
+    grid-template-columns: auto auto;
+    grid-template-rows: 100px 100px;
+    gap: 10px;
+
+}
+.seconed_section div h1{
+    margin-bottom: 70px;
+    position: relative;
+    top: 20px;
+}
+/*End of Seconed Section*/

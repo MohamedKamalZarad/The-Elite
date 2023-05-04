@@ -1,0 +1,181 @@
+/*The Global settings*/
+* {
+	box-sizing: border-box;
+	margin: 0;
+	font-family: Robert, sans-serif;
+}
+.text-color{
+	background-color: rgb(71 63 244);
+}
+#layout{
+	background-color: white;
+}
+/*End of The Global settings*/
+/*Start of header*/
+
+header {
+    padding-left: 30px;
+	padding-right: 1.9rem;
+	color: #FFFFFF;
+	padding-top: 0;
+    padding-bottom: 0;
+	position: absolute;
+	width: 100%;
+	background-color: transparent;
+	z-index: 50;
+}
+/*The first Element */
+div span{
+	font-size: 30px;
+	font-weight: 700;
+	margin-left: 30px;
+
+}
+/*The seconed Element*/
+/*The Header Links*/
+header a{
+	padding-left: 15px;
+	padding-right: 15px;
+    text-decoration: none;
+	color: inherit;
+
+}
+header:hover:not(.Sign-style){
+	background-color: #f5f5f5;
+    color: black;
+}
+.div-a:hover{
+	background-color: darkgrey;
+	}
+a:hover{
+		color: inherit;
+	}
+/*The End of Header Links*/
+/*Sign up & Login in parts*/
+.Sign-style{
+	padding: 10px 15px;
+    border-radius: 9999px;
+    color: #FFFFFF;
+}
+.Sign-style:hover{
+	background-color: rgb(71, 63, 192);
+	color: #FFFFFF;
+}
+/*The End of Sign up & Login in parts*/
+/*End of Header*/
+/*Section part*/
+/*The Background video*/
+section{
+	position: relative;
+	z-index: 45;
+	min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+section video{
+	position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+	opacity: 0.4;
+}
+/*The End of The Background video*/
+/*Page text*/
+.text-inside{
+
+	position: relative;
+    top: 100px;
+    color: white;
+    font-size: 600px;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+}
+.text-inside h1{
+	font-size: 70px;
+}
+.text-inside h2{
+	font-size: 35px;
+}
+/*The End of The Page text*/
+/*review section*/
+
+.review-header{
+	
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(71, 63, 192);
+    width: 285px;
+    display: inline-block;
+    z-index: 98;
+    height: 130px;
+}
+.review-header h2{
+    font-size: 16px;
+    line-height: 149%;
+    font-weight: 400;
+    word-break: break-word;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-top: 49px;
+}
+.review-header h2::after{
+	content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 130px 60px 0 0;
+    border-color: rgb(71, 63, 192) transparent transparent transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+}
+.reviews_controll{
+	position: relative;
+	text-align: center;
+	margin-bottom: 70px;
+}
+.p_container{
+    width: 380px;
+    background-color: #fff;
+    padding: 65px 110px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -90px;
+    text-align: left;
+    position: relative;
+    z-index: 31;
+    letter-spacing: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.p_container h5{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.p_container-1{
+	width: 380px;
+    background-color: #fff;
+    padding: 65px 110px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: -100px;
+    text-align: left;
+    position: relative;
+    z-index: 31;
+    letter-spacing: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.p_container-1 h5{
+    font-size: 2rem;
+}
+.image_container{
+	max-width: 600;
+	display: inline-block;
+    margin-top: 190;
+}
